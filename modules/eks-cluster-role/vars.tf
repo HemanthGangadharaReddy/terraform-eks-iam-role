@@ -1,5 +1,6 @@
-variable "cluster_name" {
-  description = "Name of the EKS cluster"
+variable "role_name" {
+  description = "Name of the IAM role"
+  default = "my-eks-role"
 }
 
 variable "iam_policy_arn" {
